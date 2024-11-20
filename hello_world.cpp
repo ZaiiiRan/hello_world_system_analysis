@@ -1,10 +1,12 @@
 #include <iostream>
-using namespace std; .
 
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "\nHello world from " << name << endl;
+    // ask user's name
+    std::string name;
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+
+    // print personalized heelo world message
+    std::cout << "\nHello world from " << name << std::endl;
     return 0;
 }
